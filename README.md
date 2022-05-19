@@ -2,8 +2,8 @@
 
 <html>
     </br>
-    <a href="https://www.lua.org/download.html">
-        <img height="180em" alt="Lua Programming Language Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1920px-Lua-Logo.svg.png" target="blank">
+    <a href="https://www.lua.org/download.html" target="_blank">
+        <img height="180em" alt="Lua Programming Language Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/1920px-Lua-Logo.svg.png">
     </a>
     </br>
     </br>
