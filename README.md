@@ -14,7 +14,6 @@ Information
   - [What is this repository?](#what-is-this-repository)
   - [Wanna learn Lua?](#wanna-learn-lua)
 </br>
-</br>
 
 ## What is this repository?
 
