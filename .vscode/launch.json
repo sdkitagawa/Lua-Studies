@@ -9,7 +9,7 @@
             "type": "lua-local",
             "request": "launch",
             "program": {
-                "lua": "%luac%/lua53.exe",
+                "lua": "lua53",
                 "file": "${file}"
             }
         },
