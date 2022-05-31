@@ -4,7 +4,7 @@
 --  * File: user-input-name-age.lua
 --  * Copyright (C) 2022 Douglas Kitagawa
 ---
---- Conditional
+--- Input System
     -- io.output():write() = io.write
         -- A function to write things to the screen.
     -- io.input():read() = io.read

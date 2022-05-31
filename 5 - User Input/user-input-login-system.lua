@@ -4,11 +4,11 @@
 --  * File: user-input-login-system.lua
 --  * Copyright (C) 2022 Douglas Kitagawa
 ---
---- Conditional
-    -- io
-    -- Else: "if the sky is not red, then the sky must be blue."
-    -- Elseif: "if the sky is blue, then clouds are white, and if the sky is not red, then the sky must be blue."
---- Operators always return true or false
+--- Input System
+    -- io.output():write() = io.write
+        -- A function to write things to the screen.
+    -- io.input():read() = io.read
+        -- A function to takes input from the user.
 ---
 
 local userEmail = "sdkitagawa@ymail.ne.jp"
@@ -21,8 +21,12 @@ local userLogin = io.read()
 
 if userLogin == userEmail then
     io.write("Password: ")
-    userPassword = io.read()
-    print("Logging in...")
+    local userPass = io.read()
+    if userPass == userPassword then
+        print("Logging in...")
+    else
+        print("Incorrect password, you have reached the limit of tries.")
+    end
 else
     print("There's no account with this username. Unfortunately you have reached the maximum amount of tries.")
 end
