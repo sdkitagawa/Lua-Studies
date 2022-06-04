@@ -6,9 +6,9 @@
 ---
 --- Input System
     -- io.output():write() = io.write
-        -- A function to write things to the screen.
+        -- A function to write things to the screen. (Always a string)
     -- io.input():read() = io.read
-        -- A function to takes input from the user.
+        -- A function to get the input from the user.
 ---
 
 io.write("Hello! Please tell me your name: ")

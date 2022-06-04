@@ -52,10 +52,10 @@ EnemyHp = 70
 EnemyMp = 5
 EnemyAtk = 150
 
-print("This is the Information of your Character:", "\n\nCharacter Name:", PlayerName, "\nJob:", PlayerJob, "\nHP:", PlayerHp, "\nMP:", PlayerMp, "\n\nStr:", playerStr ,"\nAgi:", playerAgi, "\nVit:", playerVit, "\nInt:", playerInt, "\nDex:", playerDex, "\nLuk:", playerLuk, "\n\nPlayer alive?", IsAlive, "\n")
+print("This is the Information of your Character: ", "\n\nCharacter Name: ", PlayerName, "\nJob: ", PlayerJob, "\nHP: ", PlayerHp, "\nMP: ", PlayerMp, "\n\nStr: ", playerStr ,"\nAgi: ", playerAgi, "\nVit: ", playerVit, "\nInt: ", playerInt, "\nDex: ", playerDex, "\nLuk: ", playerLuk, "\n\nPlayer alive?", IsAlive, "\n")
 
 -- Player and Enemy HP check
-print("Player HP:", PlayerHp,"\nPlayer Attack:", playerStr, "\nEnemy HP:", EnemyHp, "\nEnemy Attack:", EnemyAtk,"\n")
+print("Player HP: ", PlayerHp,"\nPlayer Attack: ", playerStr, "\nEnemy HP: ", EnemyHp, "\nEnemy Attack: ", EnemyAtk,"\n")
 
 --- Operators:
     --- Addition: +
@@ -65,11 +65,11 @@ print("Player HP:", PlayerHp,"\nPlayer Attack:", playerStr, "\nEnemy HP:", Enemy
 -- Player attack simulation
 HasAttackedEnemy = EnemyHp - playerStr
 
-print("You attacked the enemy!\nEnemy HP:", HasAttackedEnemy, "\n")
+print("You attacked the enemy!\nEnemy HP: ", HasAttackedEnemy, "\n")
 
 -- Enemy attack simulation
 
 HasAttackedPlayer = PlayerHp - EnemyAtk
 
 IsAlive = false
-print("The enemy has attacked you!\nYour HP:", HasAttackedPlayer, "\n\nPlayer alive?", IsAlive)
+print("The enemy has attacked you!\nYour HP: ", HasAttackedPlayer, "\n\nPlayer alive?", IsAlive)
