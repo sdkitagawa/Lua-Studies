@@ -1,7 +1,7 @@
 ---
 --  * Mastering Lua repository
 --  * Author: Douglas Kitagawa (sdkitagawa)
---  * File: welcome-message-function.lua
+--  * File: how-old-function.lua
 --  * Copyright (C) 2022 Douglas Kitagawa
 ---
 --- Functions
@@ -9,9 +9,11 @@
     -- Functions with parameters help make the function more flexible.
     -- Functions can return values.
 ---
-function Welcome_Message(userName)
-    print("Welcome ", userName, "!")
+
+function HowOld(firstNumber, secondNumber)
+    local userAge = firstNumber - secondNumber
+    print("You are ", userAge, "years old!")
 end
 
 --- Function test
-Welcome_Message("DK")
+HowOld(2022, 1994)

@@ -9,6 +9,7 @@
     -- Functions with parameters help make the function more flexible.
     -- Functions can return values.
 ---
+
 function Blessing_Buff(currentStr, currentAgi, currentVit, currentInt, currentDex, currentLuk, bonusValue)
     local currentStr = currentStr + bonusValue
     local currentAgi = currentAgi + bonusValue

@@ -1,7 +1,7 @@
 ---
 --  * Mastering Lua repository
 --  * Author: Douglas Kitagawa (sdkitagawa)
---  * File: addition-function.lua
+--  * File: hello-world-function.lua
 --  * Copyright (C) 2022 Douglas Kitagawa
 ---
 --- Functions
@@ -9,10 +9,11 @@
     -- Functions with parameters help make the function more flexible.
     -- Functions can return values.
 ---
-function Addition(firstNumber, secondNumber)
-    local finalAddition = firstNumber + secondNumber
-    print(firstNumber, "+", secondNumber, "=", finalAddition)
+
+function Hello_World(name)
+    local userName = name
+    print("Hello world! Glad to see you ", userName)
 end
 
 --- Function test
-Addition(10, 15)
+Hello_World("Douglas Kitagwa")
