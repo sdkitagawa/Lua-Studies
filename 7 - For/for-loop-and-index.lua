@@ -4,7 +4,7 @@
 --  * File: for-loop-and-index.lua
 --  * Copyright (C) 2022 Douglas Kitagawa
 ---
---- Repetition Structures - While
+--- Repetition Structures - For
     -- For loop is used for iterating over a sequence.
     -- i means index or iteration
 ---
