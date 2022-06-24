@@ -1,4 +1,4 @@
-# Mastering Lua Programming Language
+# Lua Programming Language Studies
 
 <html>
     </br>
